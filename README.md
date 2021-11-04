@@ -31,7 +31,7 @@ SyntaxError: EOL while scanning string literal
 
 `print("Hello" + " " + "World")  -> #Hello World!` 
 
-To concatenamte a string with a number we must to convert the number to a string using `str()` function :
+To concatenate a string with a number we must to convert the number to a string using `str()` function :
 
 ```
 birthday_string = "I am "
