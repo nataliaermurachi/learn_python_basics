@@ -58,6 +58,7 @@ Tis is a multi -
 line 
 string
 """
+```
 
 > **Functions** - is a group of reusable code blocks, a sequence of steps that can be performed repeatedly throughtout a program without writing the same code over and over again. A function needs to be defined and called.
 
