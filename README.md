@@ -58,4 +58,37 @@ Tis is a multi -
 line 
 string
 """
+
+> **Functions** - is a group of reusable code blocks, a sequence of steps that can be performed repeatedly throughtout a program without writing the same code over and over again. A function needs to be defined and called.
+
+`Define a function: `
+```
+def function_name():
+    # functions tasks go here
+    # code within a function needs to be indented
+    print("Hello from inside the function!")
+
+print("Hello from outside the function!")
+# unindented code is not part of the function body
+```
+
+`Execute or call a function:`
+```
+function_name()
+```
+
+`The function parameter` - is the name defined in the paranthesis of the function and can be used in the function body:
+
+```
+def function_name(par1, par2, parn=default_value):
+    print(par1, par2)
+    print("Default value can be modified by adding a new value to the argument")
+```
+
+`The function argument` - is the data that is passedin when we call the function and assigned to the parameter name:
+
+```
+function_name("Hello", "World") #positional arguments
+function_name(par1="Hello", par2="World") # keyword arguments
+function_name("Hello", "World", "overwrite_default") #default argument
 ```
